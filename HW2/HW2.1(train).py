@@ -7,11 +7,7 @@ number = int(user_input)
 print(type(number))
 print(divmod(x+x1+x2+x3))
 
-import sys
-print('x')
-print(sys.argv[x1])
-print(sys.argv[x2])
-print(sys.argv[x3])
+
 
 
 

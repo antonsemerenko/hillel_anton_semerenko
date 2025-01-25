@@ -1,6 +1,4 @@
-input("Please enter any 4-digit integer: ")
-user_input = input =7711
-print()
+user_input = input("Please enter any 4-digit integer: ")
 number = int(user_input)
 x=100
 left,right = (divmod(number,x))
