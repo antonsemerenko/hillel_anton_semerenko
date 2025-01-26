@@ -4,6 +4,11 @@ a=input("Enter action, please  \n")
 if a=="/":
     print('Result:')
     print(n1/n2)
+    if 0 < n2:
+        print('Result:')
+        print(n1 / n2)
+    else:
+        print('division by zero')
 elif a=="*":
     print('Result:')
     print(n1*n2)
@@ -13,3 +18,4 @@ elif a=="+":
 elif a == "-":
     print('Result:')
     print(n1-n2)
+
